@@ -146,7 +146,9 @@ li{
 .flex-grow{
     flex-grow: 1;
 }
-
+.align-center{
+    align-items: center;
+}
 .justify-center{
     justify-content: center;
 }
@@ -210,6 +212,8 @@ li{
     border-radius: 50px;
     font-family: var(--font-poppins);
     font-weight: bold;
+    
+    
 }
 
 .btn-shadow{
@@ -217,11 +221,16 @@ li{
 }
 .btn-primary:hover{
     background: var(--bg-gradient-indigo);
+    
+    
 }
 
 .bg-cover {
     background: var(--bg-cover);
     object-fit: fill;
+}
+.d-none{
+    display: none;
 }
 .d-inline{
     display: inline-block;
