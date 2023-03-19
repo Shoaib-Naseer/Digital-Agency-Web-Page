@@ -260,3 +260,51 @@ li{
 /* ----------------/GLOBAL CLASSES---------------- */
 
 
+
+
+/* ----------------NAVIGATION---------------------- */
+#nav{
+        position: absolute;
+        left: 0;right: 0;
+        flex-direction: column;
+        background: var(--text-light);
+        width: 100%;
+        padding: 1rem 1.5rem;
+}
+
+#nav .collapse{
+    max-height: 0;
+    overflow-y: hidden;
+    transition: all 2s ease;
+
+}
+
+#nav .collapse ul{
+        flex-direction: column;
+        text-align: center;
+        padding: 0 3rem;
+}
+
+#nav .collapse ul li{
+    padding:0 1.5rem;
+    line-height: 3rem;
+    font-size: 1.1em;
+}
+#nav > .toggle-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    color: var(--text-dark2);
+    font-size: 2em;
+}
+
+#nav .flex-initial ul button{
+    display: none;
+}
+
+.active{
+    max-height: 50vh !important;
+}
+
+/* ----------------/NAVIGATION---------------------- */
