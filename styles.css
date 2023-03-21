@@ -344,6 +344,63 @@ main{
 
 
 
+/* -----------------DIGITAL EXPERIENCE AREA-------------- */
+
+.digital-experience > .grid{
+    column-gap: 5em;
+}
+
+.grid-images{
+    display: grid;
+    grid-template-columns: repeat(16, minmax(10px,1fr));
+    grid-template-rows: repeat(8,minmax(100px,1fr));
+}
+.grid-images .first-image{
+    background: var(--bg-image1) no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    border-radius: 8px;
+    filter: blur(1px);
+
+}
+
+.grid-images .second-image{
+    background: var(--bg-image2) no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 9;
+    grid-column-end: 16;
+    border-radius: 8px;
+
+    filter: blur(1px);
+
+}
+.grid-images .third-image{
+    background: var(--bg-image3) no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    grid-column-start: 4;
+    grid-column-end: 14;
+    border-radius: 8px;
+    z-index: 2;
+
+}
+
+.digital-experience-text-area{
+    padding-top: 5em;
+}
+
+/* -----------------/DIGITAL EXPERIENCE AREA-------------- */
+
+
 /* ----------------/MEDIA QUERIES---------------------- */
 
 /* for screens larger than 640px */
@@ -387,6 +444,10 @@ main{
     .lg-cols-3{
         grid-template-columns: repeat(3,minmax(0,1fr));
     }
+    .lg-cols-2{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+
 }
 
 @media (min-width:1280px) {
