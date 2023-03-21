@@ -245,6 +245,7 @@ li{
     grid-template-columns: repeat(1,minmax(0,1fr));
 }
 
+
 .w-100{
     width: 100%;
 }
@@ -252,7 +253,9 @@ li{
 .w-50{
     width: 50%;
 }
-
+.w-30{
+    width: 30%;
+}
 
 
 
@@ -333,6 +336,14 @@ main{
 /* ----------------/BANNER SECTION---------------------- */
 
 
+/* ----------------AGENCY AREA-------------------------- */
+.agency-area{
+    padding: 5em 0; ;
+}
+/* ----------------/AGENCY AREA-------------------------- */
+
+
+
 /* ----------------/MEDIA QUERIES---------------------- */
 
 /* for screens larger than 640px */
@@ -343,12 +354,15 @@ main{
     .sm-text-xl{
         font-size: 3em;
     }
+    
+    
 }
 
 @media (min-width:768px) {
     .container{
         max-width:768px ;
     }
+    
     
 
 }
@@ -370,7 +384,9 @@ main{
     #nav{
         flex-direction: row !important;
     }
-   
+    .lg-cols-3{
+        grid-template-columns: repeat(3,minmax(0,1fr));
+    }
 }
 
 @media (min-width:1280px) {
