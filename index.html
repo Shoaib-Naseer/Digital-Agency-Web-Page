@@ -10,9 +10,8 @@
         integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
-        integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTPVyMExQN2bvLyzuBfqkTSSnYZKG3hkwUVk0UUrf89DP3/aefPPrlMR1h1yQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
     <title>Digital Marketing</title>
@@ -68,7 +67,6 @@
     <!-- BANNER SECTION -->
     <main id="site-main">
 
-
         <section class="banner-area font-poppins">
             <div class="container mx-auto banner-title">
                 <div class="title">
@@ -97,7 +95,6 @@
             </div>
 
         </section>
-
 
         <section class="agency-area font-poppins">
             <div class="container mx-auto text-center agency-title">
@@ -334,14 +331,16 @@
         </section>
 
         <section class="recent-work-area container mx-auto py-10 font-poppins">
-            <span class="d-inline btn btn-primary bg-gradient-peach text-red">
-                digital experience
-            </span>
-            <h2 class="text-lg text-dark py-5">
-                Some recent work <br>
-                we really proud of
-            </h2>
-            <div class="images-flex">
+            <div class="text-center py-5">
+                <span class="d-inline btn btn-primary bg-gradient-peach text-red">
+                    digital experience
+                </span>
+                <h2 class="text-lg text-dark py-5">
+                    Some recent work
+                    we really proud of
+                </h2>
+            </div>
+            <div class="images-flex ">
                 <div class="flex-item">
                     <img src="./assets/work/img1.png" alt="img1" class="w-100">
                     <h3 class="text-dark">Photo Retouching</h3>
@@ -349,29 +348,159 @@
                 </div>
 
                 <div class="flex-item">
-                    <img src="./assets/work/img1.png" alt="img1" class="w-100">
-                    <h3 class="text-dark">Photo Retouching</h3>
+                    <img src="./assets/work/img2.png" alt="img1" class="w-100">
+                    <h3 class="text-dark">Apple iphone</h3>
                     <span class="text-gray">Branding</span>
                 </div>
 
 
                 <div class="flex-item">
-                    <img src="./assets/work/img1.png" alt="img1" class="w-100">
-                    <h3 class="text-dark">Photo Retouching</h3>
+                    <img src="./assets/work/img3.png" alt="img1" class="w-100">
+                    <h3 class="text-dark">Recent News</h3>
                     <span class="text-gray">Branding</span>
                 </div>
 
                 <div class="flex-item">
-                    <img src="./assets/work/img1.png" alt="img1" class="w-100">
-                    <h3 class="text-dark">Photo Retouching</h3>
+                    <img src="./assets/work/img4.png" alt="img1" class="w-100">
+                    <h3 class="text-dark">Yoga</h3>
                     <span class="text-gray">Branding</span>
+                </div>
+
+                <div class="flex-item">
+                    <img src="./assets/work/img5.png" alt="img1" class="w-100">
+                    <h3 class="text-dark">News App</h3>
+                    <span class="text-gray">Branding</span>
+                </div>
+                <div class="flex-item">
+                    <img src="./assets/work/img6.png" alt="img1" class="w-100">
+                    <h3 class="text-dark">Iphone 13 pro</h3>
+                    <span class="text-gray">Branding</span>
+                </div>
+                <div class="flex-item">
+                    <img src="./assets/work/img7.png" alt="img1" class="w-100">
+                    <h3 class="text-dark">Desktop</h3>
+                    <span class="text-gray">Branding</span>
+                </div>
+
+                <div class="flex-item">
+                    <img src="./assets/work/img8.png" alt="img1" class="w-100">
+                    <h3 class="text-dark">Share Market</h3>
+                    <span class="text-gray">Branding</span>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="articles-area container mx-auto py-10 font-poppins">
+            <div class="article-text ">
+                <div class="text-center py-5">
+                    <span class="text-red">Our Recent Articles</span>
+                    <h1 class="text-lg text-dark">Articles daily updated</h1>
+                </div>
+                <div class="grid cols-1 lg-cols-3">
+                    <div class="card">
+                        <article class="btn-shadow">
+                            <img src="assets/articles/img1.png" class='w-100' alt="Articles Image">
+                            <div class="px-5 py-5">
+                                <span class="text-gray">Category 6 hours ago</span>
+                                <h1 class="text-md text-dark">Free Advertizing of your <br> online business</h1>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="card">
+                        <article class="btn-shadow">
+                            <img src="assets/articles/img1.png" class='w-100' alt="Articles Image">
+                            <div class="px-5 py-5 text-left">
+                                <span class="text-gray">Category 6 hours ago</span>
+                                <h1 class="text-md text-dark">Free Advertizing of your <br> online business</h1>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="card">
+                        <article class="btn-shadow">
+                            <img src="assets/articles/img1.png" class='w-100' alt="Articles Image">
+                            <div class="px-5 py-5 text-left">
+                                <span class="text-gray">Category 6 hours ago</span>
+                                <h1 class="text-md text-dark">Free Advertizing of your <br> online business</h1>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="ready-area container mx-auto font-poppins py-5">
+            <div class="py-10 px-10 flex flex-wrap btn-shadow sm-px-10 justify-around align-center">
+                <div class="ready-area-text w-50">
+                    <h1 class="text-lg sm-text-xl text-dark">
+                        Ready to get started?
+                    </h1>
+                    <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem praesentium
+                        reiciendis iusto
+                        distinctio aspernatur quia, mollitia molestias perspiciatis recusandae natus quam dolorum
+                        provident, quibusdam nihil modi ipsa officiis necessitatibus repellat.</p>
+                </div>
+                <div class="ready-area-button w-40 text-center">
+                    <a href="#" class="btn btn-primary bg-gradient text-light">GET STARTED NOW</a>
                 </div>
             </div>
         </section>
 
     </main>
 
-    <!-- /BANNER SECTION -->
+    <footer>
+        <section class="container mx-auto py-10">
+            <div class="grid md-cols-2 lg-cols-4 font-poppins">
+                <div class="address-container text-gray text-center md-text-left">
+                    4384 Briarhil Lane Youngstown,<br>
+                    Ohio 44503 <br>
+                    (216)272-0560 <br>
+                    <span class="text-red">shoaibnaseer1111@gmail.com</span>
+                </div>
+                <div class="about-container text-center md-text-left">
+                    <h3 class="font-bold text-dark">About</h3>
+                    <ul class="py-5">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+                <div class="services-container text-center md-text-left">
+                    <h3 class="font-bold text-dark">Services</h3>
+                    <ul class="py-5">
+                        <li><a href="#">Ecommerce</a></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Strategy</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Digital Marleting</a></li>
+                    </ul>
+                </div>
+
+                <div class="newsletter-container text-center md-text-left">
+                    <h3 class="font-bold text-dark">Newsletter</h3>
+                    <p class="text-gray">Subscribe our Newsletter to get the <br>
+                        latest news & updates</p>
+                    <div class="flex">
+                        <input type="text" class="subscribe-text w-100" placeholder="Enter Email Address">
+                        <button class="btn btn-go">Go</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyrights font-poppins">
+                <p class="text-gray text-center">
+                    @2023 Shoaib Naseer. All rights reserved.
+                </p>
+            </div>
+        </section>
+
+    </footer>
 
 
 
