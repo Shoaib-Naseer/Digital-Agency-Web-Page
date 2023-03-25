@@ -10,9 +10,12 @@
         integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.js" integrity="sha512-qk0XupXlge1h9I63+bC7K8850xgWnUjTgSNkfLnsqc7dWdx4031UbKjKs2cuRxsNXymkSjyzSCiryVouU74zkg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Stylesheet -->
+
+    <link rel="stylesheet" href="./library/particles.css">
     <link rel="stylesheet" href="styles.css">
     <title>Digital Marketing</title>
 </head>
@@ -66,20 +69,50 @@
 
     <!-- BANNER SECTION -->
     <main id="site-main">
+        <div class="particles-container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
 
         <section class="banner-area font-poppins">
             <div class="container mx-auto banner-title">
                 <div class="title">
-                    <span class="d-inline btn btn-primary bg-gradient-peach text-red">
+                    <span
+                        class="d-inline btn btn-primary bg-gradient-peach text-red animate__animated animate__fadeInUp">
                         digital experience
                     </span>
-                    <h1 class="py-2 branding text-dark text-lg sm-text-xl font-bold">
-                        <span class="d-block">Branding, Digital</span>
-                        <span class="d-block">Marketing and</span>
-                        <span class="d-block">business solutions</span>
+                    <h1 class="py-2 branding text-dark text-lg sm-text-xl font-bold ">
+                        <span class="d-block animate__animated animate__fadeInDown animate__faster">Branding,
+                            Digital</span>
+                        <span class="d-block animate__animated animate__fadeInDown animate__fast">Marketing and</span>
+                        <span class="d-block animate__animated animate__fadeInDown">business solutions</span>
                     </h1>
 
-                    <div class="py-5">
+                    <div class="py-5 animate__animated animate__fadeInUp">
                         <p class="text-gray">
                             We merge imagination and technology to help thousands of
                         </p>
@@ -88,13 +121,14 @@
                         </p>
                     </div>
 
-                    <div class="py-5">
+                    <div class="py-5 animate__animated animate__fadeInUp">
                         <a href="#" class="btn btn-primary bg-gradient text-white">Work Together</a>
                     </div>
                 </div>
             </div>
 
         </section>
+
 
         <section class="agency-area font-poppins">
             <div class="container mx-auto text-center agency-title">
@@ -164,9 +198,9 @@
         <section class="digital-experience font-poppins">
             <div class="container mx-auto grid cols-1 lg-cols-2">
                 <div class="grid-images">
-                    <div class="first-image"></div>
-                    <div class="second-image"></div>
-                    <div class="third-image"></div>
+                    <div data-rellax-speed='2' class="first-image rellax"></div>
+                    <div data-rellax-speed='-1' class="second-image rellax"></div>
+                    <div data-rellax-speed='1' class="third-image rellax"></div>
                 </div>
                 <div class="digital-experience-text-area text-center md-text-left ">
                     <span class="d-inline btn btn-primary bg-gradient-peach text-red">
@@ -267,7 +301,7 @@
 
         <section class="card-area container mx-auto py-10">
             <div class="grid cols-1 lg-cols-3 font-poppins">
-                <div class="card bg-gradient-peach px-10 py-10">
+                <div class="card  bg-gradient-peach px-10 py-10 rellax" data-rellax-speed="2">
                     <span class="d-block text-red text-xl"><i class="bi bi-app-indicator"></i></span>
                     <h2 class="text-dark">Mobile App</h2>
                     <div class="text-gray py-5">
@@ -277,7 +311,7 @@
                     </div>
                 </div>
 
-                <div class="card bg-gradient-blue px-10 py-10">
+                <div class="card bg-gradient-blue px-10 py-10 rellax" data-rellax-speed="1">
                     <span class="d-block text-red text-xl"><i class="bi bi-lightbulb"></i></span>
                     <h2 class="text-dark">Strategy</h2>
                     <div class="text-gray py-5">
@@ -287,7 +321,7 @@
                     </div>
                 </div>
 
-                <div class="card bg-gradient-red px-10 py-10">
+                <div class="card bg-gradient-red px-10 py-10 rellax" data-rellax-speed="2">
                     <span class="d-block text-red text-xl"><i class="bi bi-phone"></i></span>
                     <h2 class="text-dark">eCommerce</h2>
                     <div class="text-gray text-sm py-5">
@@ -297,7 +331,7 @@
                     </div>
                 </div>
 
-                <div class="card bg-gradient-red px-10 py-10">
+                <div class="card bg-gradient-red px-10 py-10 rellax" data-rellax-speed="-1">
                     <span class="d-block text-red text-xl"><i class="bi bi-apple"></i></span>
                     <h2 class="text-dark">Branding</h2>
                     <div class="text-gray text-sm py-5">
@@ -307,7 +341,7 @@
                     </div>
                 </div>
 
-                <div class="card bg-gradient-purple px-10 py-10">
+                <div class="card bg-gradient-purple px-10 py-10 rellax" data-rellax-speed="2">
                     <span class="d-block text-red text-xl"><i class="bi bi-chevron-bar-expand"></i></span>
                     <h2 class="text-dark">Experience Design</h2>
                     <div class="text-gray text-sm py-5">
@@ -341,48 +375,48 @@
                 </h2>
             </div>
             <div class="images-flex ">
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="./assets/work/img1.png" alt="img1" class="w-100">
                     <h3 class="text-dark">Photo Retouching</h3>
                     <span class="text-gray">Branding</span>
                 </div>
 
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="./assets/work/img2.png" alt="img1" class="w-100">
                     <h3 class="text-dark">Apple iphone</h3>
                     <span class="text-gray">Branding</span>
                 </div>
 
 
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="./assets/work/img3.png" alt="img1" class="w-100">
                     <h3 class="text-dark">Recent News</h3>
                     <span class="text-gray">Branding</span>
                 </div>
 
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="./assets/work/img4.png" alt="img1" class="w-100">
                     <h3 class="text-dark">Yoga</h3>
                     <span class="text-gray">Branding</span>
                 </div>
 
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="./assets/work/img5.png" alt="img1" class="w-100">
                     <h3 class="text-dark">News App</h3>
                     <span class="text-gray">Branding</span>
                 </div>
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="./assets/work/img6.png" alt="img1" class="w-100">
                     <h3 class="text-dark">Iphone 13 pro</h3>
                     <span class="text-gray">Branding</span>
                 </div>
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="./assets/work/img7.png" alt="img1" class="w-100">
                     <h3 class="text-dark">Desktop</h3>
                     <span class="text-gray">Branding</span>
                 </div>
 
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="./assets/work/img8.png" alt="img1" class="w-100">
                     <h3 class="text-dark">Share Market</h3>
                     <span class="text-gray">Branding</span>
@@ -399,7 +433,7 @@
                     <h1 class="text-lg text-dark">Articles daily updated</h1>
                 </div>
                 <div class="grid cols-1 lg-cols-3">
-                    <div class="card">
+                    <div class="card sm-py-5 animate__animated animate__fadeInLeft">
                         <article class="btn-shadow">
                             <img src="assets/articles/img1.png" class='w-100' alt="Articles Image">
                             <div class="px-5 py-5">
@@ -409,7 +443,7 @@
                         </article>
                     </div>
 
-                    <div class="card">
+                    <div class="card sm-py-5 animate__animated animate__fadeInLeft">
                         <article class="btn-shadow">
                             <img src="assets/articles/img1.png" class='w-100' alt="Articles Image">
                             <div class="px-5 py-5 text-left">
@@ -419,7 +453,7 @@
                         </article>
                     </div>
 
-                    <div class="card">
+                    <div class="card sm-py-5 animate__animated animate__fadeInLeft">
                         <article class="btn-shadow">
                             <img src="assets/articles/img1.png" class='w-100' alt="Articles Image">
                             <div class="px-5 py-5 text-left">
@@ -433,13 +467,13 @@
             </div>
         </section>
 
-        <section class="ready-area container mx-auto font-poppins py-5">
-            <div class="py-10 px-10 flex flex-wrap btn-shadow sm-px-10 justify-around align-center">
-                <div class="ready-area-text w-50">
-                    <h1 class="text-lg sm-text-xl text-dark">
+        <section class="ready-area container mx-auto font-poppins py-5 animate__animated animate__zoomIn">
+            <div class="py-10 px-10 flex flex-wrap btn-shadow sm-px-10 justify-around align-center ">
+                <div class="ready-area-text w-50 sm-py-5">
+                    <h1 class="text-lg sm-text-xl sm-text-center text-dark">
                         Ready to get started?
                     </h1>
-                    <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem praesentium
+                    <p class="text-gray sm-text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem praesentium
                         reiciendis iusto
                         distinctio aspernatur quia, mollitia molestias perspiciatis recusandae natus quam dolorum
                         provident, quibusdam nihil modi ipsa officiis necessitatibus repellat.</p>
